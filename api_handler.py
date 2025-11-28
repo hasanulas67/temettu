@@ -2,7 +2,7 @@ import requests
 import time
 
 class AlphaVantageAPI:
-    def __init__(self, api_key='YOUR_API_KEY_HERE'):
+    def __init__(self, api_key='8NYXTP940YRYU0W9'):
         self.api_key = api_key
         self.base_url = 'https://www.alphavantage. co/query'
         self.rate_limit = 5
